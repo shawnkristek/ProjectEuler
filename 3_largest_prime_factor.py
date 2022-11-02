@@ -5,11 +5,6 @@ import math
 
 class Solution:
     def largestPrimeFactor(num: int) -> int:
-        # def isPrime(num: int) -> bool:
-        #     for i in range(2,int(math.sqrt(num))+1):
-        #         if (num%i) == 0:
-        #             return False
-        #     return True
         n = num
         max_factor = 1
         while n % 2 == 0:
