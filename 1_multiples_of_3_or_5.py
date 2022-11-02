@@ -28,5 +28,5 @@ tests = [
 
 for upto, solution in tests:
     sol = Solution.sumMultiples35(upto)
-    print(sol)
+    # print(sol)
     print( sol == solution )
